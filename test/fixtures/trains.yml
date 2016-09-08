@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  trainname: MyString
+  location: MyString
+  destination: MyString
+  date: 2016-09-08
+  time: 2016-09-08 16:28:52
+  numberofseats: 1
+  totalamount: 1
+
+two:
+  trainname: MyString
+  location: MyString
+  destination: MyString
+  date: 2016-09-08
+  time: 2016-09-08 16:28:52
+  numberofseats: 1
+  totalamount: 1

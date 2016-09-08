@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Trainname:</strong>
+  <%= @train.trainname %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @train.location %>
+</p>
+
+<p>
+  <strong>Destination:</strong>
+  <%= @train.destination %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @train.date %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @train.time %>
+</p>
+
+<p>
+  <strong>Numberofseats:</strong>
+  <%= @train.numberofseats %>
+</p>
+
+<p>
+  <strong>Totalamount:</strong>
+  <%= @train.totalamount %>
+</p>
+
+<%= link_to 'Edit', edit_train_path(@train) %> |
+<%= link_to 'Back', trains_path %>
